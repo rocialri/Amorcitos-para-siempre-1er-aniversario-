@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amorcitos por siempre</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+<main class="love-page">
+
+    <!-- PANTALLA INICIAL -->
+    <section class="pantalla pregunta" id="pregunta">
+        <div class="decoracion-corazon">♥</div>
+
+        <div class="corazones-iniciales">♥ ♥ ♥</div>
+
+        <p class="intro">UNA PREGUNTITA IMPORTANTE...</p>
+
+        <h1>¿Quieres ser mi amorcito para siempre?</h1>
+
+        <p class="subtitulo">
+            Eres mi persona favorita en el muuuundo. 💗<br>
+            Quiero seguir siendo feliz a tu lado :)
+        </p>
+
+        <div class="botones-iniciales">
+            <button class="boton-si" id="si" type="button">
+                ¡Sí, para siempre!
+            </button>
+
+            <button class="boton-no" id="no" type="button">
+                No...
+            </button>
+        </div>
+
+        <p class="pie-inicial">Hecho con mucho amor ♥</p>
+    </section>
+
+    <!-- ILUSTRACIÓN PRINCIPAL -->
+    <section class="pantalla respuesta hidden" id="respuesta">
+
+        <div class="ilustracion-capibaras">
+
+            <img
+                    src="images/rani-doci.png"
+                    alt="Rani y Doci juntos para siempre"
+                    class="imagen-capibaras"
+            >
+
+            <!-- BOCADILLO SUPERIOR: LLUVIA DE CORAZONES -->
+            <button
+                    class="zona-pulsable corazon-uno"
+                    type="button"
+                    aria-label="Lanzar lluvia de corazones desde el bocadillo superior">
+            </button>
+
+            <!-- BOCADILLO INFERIOR: LLUVIA DE CORAZONES -->
+            <button
+                    class="zona-pulsable corazon-dos"
+                    type="button"
+                    aria-label="Lanzar lluvia de corazones desde el bocadillo inferior">
+            </button>
+
+            <!-- SIEMPRE: MOSTRAR Y OCULTAR LOS RECUERDOS -->
+            <button
+                    class="zona-pulsable siempre-pulsable"
+                    id="siempre-pulsable"
+                    type="button"
+                    aria-label="Mostrar u ocultar las fotos de nuestros recuerdos">
+            </button>
+
+            <!-- CORAZÓN CENTRAL: MENSAJE DE ANIVERSARIO -->
+            <button
+                    class="zona-pulsable corazon-centro"
+                    id="corazon-centro"
+                    type="button"
+                    aria-label="Mostrar el mensaje de aniversario">
+            </button>
+
+        </div>
+    </section>
+
+</main>
+
+<!-- CUATRO FOTOS DE RECUERDO -->
+<div class="fotos-nuestros-recuerdos" id="fotos-recuerdos">
+
+    <img
+            src="images/foto1.jpeg"
+            alt="Nuestro recuerdo juntos"
+            class="foto-esquina foto-superior-izquierda"
+    >
+
+    <img
+            src="images/foto2.jpeg"
+            alt="Nuestro recuerdo en Florencia"
+            class="foto-esquina foto-superior-derecha"
+    >
+
+    <img
+            src="images/foto3.jpeg"
+            alt="Otro de nuestros recuerdos"
+            class="foto-esquina foto-inferior-izquierda"
+    >
+
+    <img
+            src="images/foto4.jpeg"
+            alt="Otro momento juntos"
+            class="foto-esquina foto-inferior-derecha"
+    >
+
+</div>
+
+<!-- TARJETA ANIMADA DE ANIVERSARIO -->
+<div class="aniversario-animado hidden" id="aniversario">
+
+    <img
+            src="images/pareja-corazon.png"
+            alt="Pareja abrazando un corazón"
+            class="dibujo-aniversario"
+    >
+
+    <div class="texto-aniversario">
+        <p class="titulo-aniversario">¡1 año juntos!</p>
+        <p class="subtitulo-aniversario">
+            Te quiero muuuuucho!!
+        </p>
+        <p class="corazones-aniversario">♥ ♥ ♥</p>
+    </div>
+
+</div>
+
+</body>
+</html>
